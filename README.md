@@ -4,9 +4,9 @@
 
 Our codebase consists of two parts depending on diffusion models.
 
-The noise prediction models with DDIM, iPNDM, DPM-Solver, and DEIS is based on the code base of [DPM-solver](https://github.com/LuChengTHU/dpm-solver/tree/main/examples/ddpm_and_guided-diffusion) and [DEIS](https://github.com/qsh-zh/deis/tree/main). See [dpm_solver](./dpm_solver).
+The noise prediction models with DDIM, iPNDM, DPM-Solver, and DEIS is based on the code base of [DPM-solver](https://github.com/LuChengTHU/dpm-solver/tree/main/examples/ddpm_and_guided-diffusion) and [DEIS](https://github.com/qsh-zh/deis/tree/main). Check the code at [dpm_solver](./dpm_solver).
 
-The data prediction models with DDIM and EDM is heavily based on [EDM codebase](https://github.com/NVlabs/edm). See [edm](./edm).
+The data prediction models with DDIM and EDM is heavily based on [EDM codebase](https://github.com/NVlabs/edm). Check the code at [edm](./edm).
 
 Please follow their instructions to set up each environment and download pretrained models. In `launch.sh` of each part, you will find a command to run each sampler on Cifar-10.
 
