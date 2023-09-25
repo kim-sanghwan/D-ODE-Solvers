@@ -4,7 +4,7 @@
 
 Our codebase consists of two parts depending on diffusion models.
 
-The noise prediction models with DDIM, iPNDM, DPM-Solver, and DEIS is based on the code base of [DPM-solver](https://github.com/LuChengTHU/dpm-solver/tree/main/examples/ddpm_and_guided-diffusion) and [DEIS](https://github.com/qsh-zh/deis/tree/main). Check the code at [dpm_solver](./dpm_solver).
+The noise prediction models with DDIM, iPNDM, DPM-Solver, and DEIS is based on the code repositories of [DPM-solver](https://github.com/LuChengTHU/dpm-solver/tree/main/examples/ddpm_and_guided-diffusion) and [DEIS](https://github.com/qsh-zh/deis/tree/main). Check the code at [dpm_solver](./dpm_solver).
 
 The data prediction models with DDIM and EDM is heavily based on [EDM codebase](https://github.com/NVlabs/edm). Check the code at [edm](./edm).
 
