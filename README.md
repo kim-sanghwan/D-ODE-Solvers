@@ -1,6 +1,6 @@
 ## D-ODE-Solvers
 
-**Official implementation of the paper "Distilling ODE Solvers of Diffusion Models into Smaller Steps"**
+**Official implementation of the paper "Distilling ODE Solvers of Diffusion Models into Smaller Steps" at CVPR 2024**
 
 Our codebase consists of two parts depending on diffusion models.
 
